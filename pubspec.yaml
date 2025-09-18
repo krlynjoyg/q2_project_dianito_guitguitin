@@ -1,0 +1,180 @@
+name: repair_plus_one
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/dash/dash1.png
+    - images/dash/dash2.png
+    - images/dash/dash3.png
+    - images/dash/dash4.jpg
+    - images/onboard/onboard1.png
+    - images/onboard/onboard2.png
+    - images/onboard/onboard3.png
+    - images/onboard/onboard4.png
+    - images/tutorial/tutorial1.png
+    - images/tutorial/tutorial2.png
+    - images/tutorial/tutorial3.png
+    - images/tutorial/tutorial4.png
+    - images/tutorial/tutorial5.png
+    - images/tutorial/tutorial6.png
+    - images/tutorial/tutorial7.png
+    - images/phones/phone1.png
+    - images/phones/phone2.png
+    - images/phones/phone3.png
+    - images/phones/phone4.png
+    - images/phones/phone5.png
+    - images/phones/phone6.png
+    - images/phones/phone7.png
+    - images/laptop/laptop1.png
+    - images/laptop/laptop2.png
+    - images/laptop/laptop3.png
+    - images/laptop/laptop4.png
+    - images/laptop/laptop5.png
+    - images/laptop/laptop6.png
+    - images/laptop/laptop7.png
+    - images/laptop/laptop8.png
+    - images/laptop/laptop9.png
+    - images/laptop/laptop10.png
+    - images/laptop/laptop11.png
+    - images/laptop/laptop12.png
+    - images/laptop/laptop13.png
+    - images/laptop/laptop14.png
+    - images/laptop/laptop15.png
+    - images/laptop/laptop16.png
+    - images/laptop/laptop17.png
+    - images/laptop/laptop18.png
+    - images/laptop/laptop19.png
+    - images/laptop/laptop20.png
+    - images/laptop/laptop21.png
+    - images/laptop/laptop22.png
+    - images/laptop/laptop23.png
+    - images/laptop/laptop24.png
+    - images/laptop/f1.png
+    - images/laptop/f2.png
+    - images/laptop/rg.png
+    - images/laptop/rg1.png
+    - images/laptop/rg2.png
+    - images/laptop/rg3.png
+    - images/laptop/rg4.png
+    - images/mac/rg1.png
+    - images/mac/rg2.png
+    - images/mac/rg3.png
+    - images/mac/rg4.png
+    - images/mac/rg5.png
+    - images/mac/rg6.png
+    - images/mac/f1.png
+    - images/mac/f2.png
+    - images/mac/f3.png
+    - images/mac/mac1.png
+    - images/mac/mac2.png
+    - images/mac/mac3.png
+    - images/ipads/t1.png
+    - images/ipads/t2.png
+    - images/ipads/t3.png
+    - images/ipads/t4.png
+    - images/ipads/t5.png
+    - images/ipads/t6.png
+    - images/ipads/t7.png
+    - images/ipads/f1.png
+    - images/ipads/f2.png
+    - images/ipads/rg1.png
+    - images/ipads/rg2.png
+    - images/ipads/rg3.png
+    - images/ipads/rg4.png
+    - images/ipads/rg5.png
+    - images/ch/c1.png
+    - images/ch/c2.png
+    - images/ch/c3.png
+    - images/ch/c4.png
+    - images/ch/c5.png
+    - images/ch/c6.png
+    - images/ch/c7.png
+    - images/ch/c8.png
+    - images/ch/c9.png
+    - images/ch/c10.png
+    - images/ch/c11.png
+    - images/ch/c12.png
+    - images/ch/c13.png
+    - images/ch/c14.png
+    - images/ch/c15.png
+    - images/ch/c16.png
+    - images/ch/c17.png
+    - images/ch/c18.png
+    - images/ch/c19.png
+    - images/ch/c20.png
+    - images/ch/c21.png
+    - images/ch/f1.png
+    - images/ch/f2.png
+    - images/ch/f3.png
+    - images/ch/rg1.png
+    - images/ch/rg2.png
+    - images/ch/rg3.png
+    - images/ch/rg4.png
+    - images/ch/rg5.png
+    - images/ch/rg6.png
+    - images/er/e1.png
+    - images/er/e2.png
+    - images/er/e3.png
+    - images/er/e4.png
+    - images/er/e5.png
+    - images/er/e6.png
+    - images/er/e7.png
+    - images/er/e8.png
+    - images/er/f1.png
+    - images/er/f2.png
+    - images/er/f3.png
+    - images/er/rg1.png
+    - images/er/rg2.png
+    - images/er/rg3.png
+    - images/er/rg4.png
+    - images/er/rg5.png
+    - images/er/rg6.png
+    - images/history/h1.png
+    - images/history/h2.png
+    - images/history/h3.png
+    - images/history/h4.png
+    - images/history/h5.png
+    - images/apple/a1.png
+    - images/apple/a2.png
+    - images/apple/a3.png
+    - images/apple/a4.png
+    - images/apple/a5.png
+    - images/apple/a6.png
+    - images/apple/a7.png
+    - images/apple/f1.png
+    - images/apple/f2.png
+    - images/apple/f3.png
+    - images/apple/rg1.png
+    - images/apple/rg2.png
+    - images/apple/rg3.png
+    - images/apple/rg4.png
+    - images/apple/iphone_air/air1.png
+    - images/apple/iphone_air/air2.png
+    - images/apple/iphone_air/air3.png
+    - images/apple/iphone_air/air4.png
+    - images/apple/iphone_air/air5.png
+    - images/apple/iphone_air/air6.png
+    - images/apple/iphone_air/air7.png
+    - images/apple/iphone_air/air8.png
+    - images/apple/iphone_air/i1.png
